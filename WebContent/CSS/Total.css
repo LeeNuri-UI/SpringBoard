@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+		html {
+			margin:0;
+			padding:0;
+			height:100%;
+		}
+		body {
+			width: 1000px; 
+			margin: 0 auto;
+			height:100%;
+			padding:0;
+			}
+		.rap {	
+			display: flex;
+			flex-direction:column;
+			font-family:"고딕";
+			height:100%;
+		}	
+		.rap2 {	
+			flex:1 0 auto; /*원래 다 채워준다는 의미로 1만 넣어도 되지만 익스플로어 적용을 위해 그냥 1 0 auto를 넣어줌*/
+		}
+		
+		
+		/*header line css*/
+	
+		.divH01{
+			width:1000px; height:280px;	
+		}	
+		.divH02{
+			right: 200px;
+			top: 10px; 
+			background-color:rgba(0,0,0,0); /*버튼 배경색 없애기*/
+			border:0; /*선 없애기*/
+			outline:0; /*누를 때 아웃라인 안보이기*/
+			font-size: 0.9em; 
+			font-weight: bold; 
+			position: absolute;		
+		}
+		.divH03{
+			right: 120px;
+			top: 10px; 
+			background-color:rgba(0,0,0,0); /*버튼 배경색 없애기*/
+			border:0; /*선 없애기*/
+			outline:0; /*누를 때 아웃라인 안보이기*/
+			font-size: 0.9em; 
+			font-weight: bold; 
+			position: absolute;		
+		}
+		.divH04{
+			left: 100px; 
+			width: 1000px; 
+			bottom: 100px; 
+			font-size: 2em; 
+			font-weight: bold; 
+			position: absolute;
+		}
+		.divLogin{
+			right: 200px;
+			top: 10px; 
+			background-color:rgba(0,0,0,0); /*버튼 배경색 없애기*/
+			border:0; /*선 없애기*/
+			outline:0; /*누를 때 아웃라인 안보이기*/
+			font-size: 0.9em; 
+			font-weight: bold; 
+			position: absolute;		
+		}
+		
+		
+		/*footer line css*/
+	
+		footer{
+			width: 1000px; 
+			margin-top : 40px;
+			border-top:3px solid #2E9AFE; 
+			background-color:#F8FEFF;	
+			padding: 72px 0; /*높이가 나오게 padding으로 지정한다 위에서 밀렸으니까 지정하면 브라우저줄이면 커진당*/
+		}
+	

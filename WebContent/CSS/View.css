@@ -1,0 +1,120 @@
+@charset "utf-8";
+			
+	/*View Line CSS*/
+		
+		.Vitable01{
+			width:780px;  
+			margin:10px 0px 0px 0px;
+			border: 0px solid;
+			float:right;
+			background-color:#F8FEFF;			
+			
+		}
+		
+		.Vi01{
+			width:780px; 
+			border:0px solid; 
+			min-height:470px; 
+			margin:0px 0px 0px 0px; 
+			height: auto; 
+			float:right; 
+			background-color:#F8FEFF;
+			white-space:nowrap; 
+			overflow-x:auto;
+			overflow-y:visible;
+		}
+		
+		.Vi02{
+			width:740px; 
+			min-height:400px; 
+			background-color:#ffffff;
+			padding:10px 10px 10px 10px; 
+			resize:none; 
+			height: auto; 
+			margin:0px 0px 0px 10px;  
+			outline:0; 
+			border-bottom:0px solid #2e9cdf;
+			white-space:nowrap; 
+			overflow-x:auto;
+			overflow-y:visible;
+		}
+		
+		.Vi03{
+			border-top:2px solid #2e9cdf;  
+			background-color:#F8FEFF;
+			text-align:left; 
+			float:right; 
+			width:770px; 
+			padding:3px 0px 3px 10px;
+		}
+		
+		.ViRe01{
+			width:677px; 
+			height:70px; 
+			text-align:left; 
+			outline:0; 
+			border-color:#2e9cdf; 
+			margin: 0px 0px 70px 220px; 
+			resize:none;
+			padding:5px 10px 0px 10px;
+		}
+		
+		
+		/*이전 목록 다음 CSS*/
+		.ViBu01{
+			border: 0px solid #A4A4A4;
+			width : 43x; height:23px;
+			background-color:#2e9cdf;
+			color: #ffffff;
+			border-radius:0.4em;
+			margin-top: 10px;	
+			outline:0;
+		}
+		.ViBu01:hover{
+			color: #000000;
+			cursor: pointer;}
+			
+				
+		/*삭제하기 수정하기*/	
+		.ViBu02{ 
+			background-color:#2e9cdf; 
+			border:0px solid #2e9cdf; 
+			height:27px;
+			outline:0; 
+			font-size: 0.9em;
+			color: #ffffff;
+			font-weight: bold;
+			margin:10px 10px 10px 0px;
+			float:right; 
+		}
+		.ViBu02:hover{
+			color: #000000;
+			cursor: pointer;}	
+		
+		/*작성완료*/		
+		.ViBu03{ 
+			background-color:#2e9cdf; 
+			border:0px solid #2e9cdf; 
+			width:77px;
+			height:77px;
+			outline:0; 
+			font-size: 0.9em;
+			color: #ffffff;
+			font-weight: bold;
+			margin:0px 1px 1px -5px;
+			float:right;
+		}
+		.ViBu03:hover{
+			color: #000000;
+			cursor: pointer;}		
+		 
+		td{
+			text-align:left;
+			border:0px solid;
+		}
+		
+		/*댓글창 버튼 나란히 두기 CSS*/
+		textarea,button
+		{
+			vertical-align:middle;
+		}

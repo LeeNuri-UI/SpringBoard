@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+	/*tab menu line css*/
+	 
+		.main {
+			width: 800px;
+			height: 700px;
+			padding: 10px 0px 0px 0px;    
+			border-radius: 7px; 
+			border: 0px solid;	
+			background: #ffffff;
+			margin-top: 0px;
+			}
+		section {
+			display: none;
+			}
+		input {
+			  display: none; /*input 그림 없앰*/
+			  }  
+		label {
+			display: inline-block; /*줄바꿈 안되고 block처럼 width와 height를 지정 가능하고,만약 width와 height를 지정하지 않을 경우, inline과 같이 컨텐츠만큼 영역이 잡힌다.*/
+			padding: 10px 25px; /*탭 이미지 내 안조절*/
+			font-weight: 600;  /*폰트 굵기 조절*/
+			color: #848484; /*폰트 색 조절*/
+			border-radius:0px 100px 0px 0px/ 0px 100px 50px 0px;
+			border: 1px solid transparent;
+			}
+		label:hover {
+			color: #2e9cdf;
+			cursor: pointer;}
+			
+		/*input 클릭시, label 스타일*/
+			input:checked + label {
+			color: #000000;
+			background: linear-gradient( to top, #F8FEFF, #2E9AFE);
+			border-top: 2px solid #2E9AFE;
+			border-left: 2px solid #2E9AFE;
+			border-right: 0px solid #2E9AFE;
+			border-bottom: 0px solid #2E9AFE;
+			}
+ 
+		#tab1:checked ~ #content1,
+		#tab2:checked ~ #content2 {
+			display: block;}
+			
+		#content1 {
+			border: 0px solid #848484;
+			padding: 20px 20px 20px 20px;
+			border-left: 2px solid #2E9AFE;
+			border-bottom: 2px solid #2E9AFE;
+			background-color: #F8FEFF; 
+			width: 740px;
+			min-height: 600px;
+			height:auto;
+			white-space:nowrap; 
+			overflow-x:auto;
+			overflow-y:visible; 	
+			}	
+		#content2 {
+			border: 0px solid #848484;
+			background-color: #F8FEFF; 
+			padding: 20px 20px 20px 20px;
+			border-left: 2px solid #2E9AFE;
+			border-bottom: 2px solid #2E9AFE;
+			width: 740px;
+			min-height: 600px;
+			height:auto;
+			white-space:nowrap; 
+			overflow-x:auto;
+			overflow-y:visible;
+			}	
